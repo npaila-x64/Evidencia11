@@ -1,7 +1,7 @@
 package vista;
 
-import controlador.ControladorAplicacion;
 import controlador.ControladorMostrador;
+import modelo.Trabajador;
 
 import javax.swing.*;
 import java.awt.*;
@@ -23,7 +23,6 @@ public class PanelMostrador extends JPanel implements ActionListener {
     private JTextField tisapre;
     private JTextField tfonasa;
     private JButton volver;
-    private JButton agregar;
     ControladorMostrador controlador;
 
     public PanelMostrador(ControladorMostrador controlador) {
@@ -90,6 +89,7 @@ public class PanelMostrador extends JPanel implements ActionListener {
         ctrabajadores.setSize(221, 25);
         ctrabajadores.setEditable(false);
         ctrabajadores.setFocusable(false);
+        ctrabajadores.addActionListener(this);
         this.add(ctrabajadores);
     }
 
@@ -186,7 +186,35 @@ public class PanelMostrador extends JPanel implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == volver) {
-            controlador.mostrarMenu();
+            controlador.volverHaSidoSolicitado();
         }
+        if (e.getSource() == ctrabajadores) {
+            controlador.cargarTrabajadorHaSidoSolicitado(ctrabajadores.getSelectedItem());
+        }
+    }
+
+
+
+    public void cargarListaDeTrabajadores(java.util.List<Trabajador> trabajadores) {
+        for (Trabajador t : trabajadores) {
+            ctrabajadores.addItem(t.getNombre());
+        }
+    }
+
+    public void cargarTrabajador(Trabajador trabajador) {
+        tnombre.setText(trabajador.getNombre());
+        tapellido.setText(trabajador.getApellido());
+        trut.setText(trabajador.getRut());
+        tfonasa.setText(trabajador.getFonasa());
+        tisapre.setText(trabajador.getIsapre());
+    }
+
+    public void limpiar() {
+        ctrabajadores.removeAllItems();
+        trut.setText("");
+        tnombre.setText("");
+        tapellido.setText("");
+        tisapre.setText("");
+        tfonasa.setText("");
     }
 }

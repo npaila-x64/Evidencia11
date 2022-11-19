@@ -5,6 +5,14 @@ public class Trabajador extends Persona {
 	private String fonasa;
 	private Empresa empresa;
 
+	public Trabajador() {
+		nombre = "";
+		apellido = "";
+		rut = "";
+		isapre = "";
+		fonasa = "";
+	}
+
 	public String getIsapre() {
 		return isapre;
 	}

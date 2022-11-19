@@ -1,9 +1,13 @@
 package controlador;
 
+import modelo.Trabajador;
 import vista.Marco;
 import vista.PanelEditor;
 import vista.PanelMenu;
 import vista.PanelMostrador;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ControladorAplicacion {
 
@@ -11,6 +15,19 @@ public class ControladorAplicacion {
     private ControladorMenu menu;
     private ControladorEditor editor;
     private ControladorMostrador mostrador;
+    private List<Trabajador> listaDeTrabajadores;
+
+    public ControladorAplicacion() {
+        cargarTrabajadores();
+    }
+
+    private void cargarTrabajadores() {
+        listaDeTrabajadores = new ArrayList<>();
+    }
+
+    public void agregarTrabajador(Trabajador trabajador) {
+        listaDeTrabajadores.add(trabajador);
+    }
 
     public void iniciar() {
         vista = new Marco();
@@ -25,7 +42,7 @@ public class ControladorAplicacion {
         mostrador = new ControladorMostrador(this);
     }
 
-    public void mostrarMenu() {
+    public void mostrarMenuPrincipal() {
         vista.mostrarMenu();
     }
 
@@ -59,5 +76,9 @@ public class ControladorAplicacion {
 
     public void agregarMostrador(PanelMostrador mostrador) {
         vista.agregarMostrador(mostrador);
+    }
+
+    public List<Trabajador> getTrabajadores() {
+        return listaDeTrabajadores;
     }
 }

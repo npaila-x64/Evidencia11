@@ -180,10 +180,55 @@ public class PanelEditor extends JPanel implements ActionListener {
         this.add(tfonasa);
     }
 
+    public String getRut() {
+        return trut.getText();
+    }
+
+    public String getNombre() {
+        return tnombre.getText();
+    }
+
+    public String getApellido() {
+        return tapellido.getText();
+    }
+
+    public String getIsapre() {
+        return tisapre.getText();
+    }
+
+    public String getFonasa() {
+        return tfonasa.getText();
+    }
+
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == volver) {
-            controlador.mostrarMenu();
+            controlador.volverHaSidoSolicitado();
         }
+        if (e.getSource() == agregar) {
+            controlador.agregarTrabajadorHaSidoSolicitado();
+        }
+    }
+
+    public void mostrarNombreNoPuedeEstarVacio() {
+        JOptionPane.showMessageDialog(this,
+                "El nombre del trabajador no puede estar vacío.",
+                "El nombre del trabajador está vacío",
+                JOptionPane.WARNING_MESSAGE);
+    }
+
+    public void limpiar() {
+        trut.setText("");
+        tnombre.setText("");
+        tapellido.setText("");
+        tisapre.setText("");
+        tfonasa.setText("");
+    }
+
+    public void mostrarTrabajadorAgregadoConExito() {
+        JOptionPane.showMessageDialog(this,
+                "¡El trabajador fue agregado exitosamente!",
+                "Éxito",
+                JOptionPane.INFORMATION_MESSAGE);
     }
 }

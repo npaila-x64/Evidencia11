@@ -1,6 +1,6 @@
 package controlador;
 
-import vista.PanelEditor;
+import modelo.Trabajador;
 import vista.PanelMostrador;
 
 public class ControladorMostrador {
@@ -16,9 +16,22 @@ public class ControladorMostrador {
 
     public void iniciar() {
         controlador.mostrarMostrador();
+        cargarListaDeTrabajadores();
     }
 
-    public void mostrarMenu() {
-        controlador.mostrarMenu();
+    private void cargarListaDeTrabajadores() {
+        vista.cargarListaDeTrabajadores(controlador.getTrabajadores());
+    }
+
+    public void volverHaSidoSolicitado() {
+        controlador.mostrarMenuPrincipal();
+        vista.limpiar();
+    }
+
+    public void cargarTrabajadorHaSidoSolicitado(Object nombre) {
+        vista.cargarTrabajador(controlador.getTrabajadores()
+                .stream()
+                .filter(t -> t.getNombre().equals(nombre))
+                .findFirst().orElse(new Trabajador()));
     }
 }

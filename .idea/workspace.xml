@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2613c846-8719-4a91-9121-8a1bd4bb042c" name="Changes" comment="crea panel editor de trabajador">
+    <list default="true" id="2613c846-8719-4a91-9121-8a1bd4bb042c" name="Changes" comment="crea panel mostrador de trabajadores">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controlador/ControladorAplicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorAplicacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controlador/ControladorEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorEditor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controlador/ControladorMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controlador/ControladorMostrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorMostrador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Trabajador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Trabajador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vista/PanelEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/PanelEditor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vista/PanelMostrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/PanelMostrador.java" afterDir="false" />
     </list>
@@ -127,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668881835731</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="crea panel mostrador de trabajadores">
+      <created>1668882616601</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668882616601</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +156,7 @@
     <MESSAGE value="agrega evidencias" />
     <MESSAGE value="crea ventana de inicio" />
     <MESSAGE value="crea panel editor de trabajador" />
-    <option name="LAST_COMMIT_MESSAGE" value="crea panel editor de trabajador" />
+    <MESSAGE value="crea panel mostrador de trabajadores" />
+    <option name="LAST_COMMIT_MESSAGE" value="crea panel mostrador de trabajadores" />
   </component>
 </project>

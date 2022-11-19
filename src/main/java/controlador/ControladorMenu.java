@@ -14,7 +14,7 @@ public class ControladorMenu {
     }
 
     public void iniciar() {
-        controlador.mostrarMenu();
+        controlador.mostrarMenuPrincipal();
     }
 
     public void salidaFueSolicitada() {
