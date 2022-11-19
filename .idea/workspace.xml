@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2613c846-8719-4a91-9121-8a1bd4bb042c" name="Changes" comment="commit inicial">
+    <list default="true" id="2613c846-8719-4a91-9121-8a1bd4bb042c" name="Changes" comment="agrega evidencias">
+      <change afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorEditorTrabajador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/MarcoPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/VentanaEditarTrabajador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/VentanaMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vista/VentanaMostrarTrabajadores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lanzador/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lanzador/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Empresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelo/Trabajador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelo/Trabajador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/VentanaTrabajador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/VentanaTrabajador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/VentanaTrabajador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorTrabajador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +23,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -35,19 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nicol\IdeaProjects\Evidencia11" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="modelo" />
@@ -89,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668467777994</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="agrega esqueleto de la aplicación">
+      <created>1668469174142</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668469174142</updated>
+    </task>
+    <task id="LOCAL-00003" summary="agrega evidencias">
+      <created>1668469483781</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668469483781</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +131,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit inicial" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit inicial" />
+    <MESSAGE value="agrega esqueleto de la aplicación" />
+    <MESSAGE value="agrega evidencias" />
+    <option name="LAST_COMMIT_MESSAGE" value="agrega evidencias" />
   </component>
 </project>

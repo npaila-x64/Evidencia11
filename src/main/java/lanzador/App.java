@@ -1,10 +1,10 @@
 package lanzador;
 
-import vista.VentanaTrabajador;
+import controlador.ControladorTrabajador;
 
 public class App {
 
     public static void main(String[] args) {
-        new VentanaTrabajador().iniciar();
+        new ControladorTrabajador().iniciar();
     }
 }
