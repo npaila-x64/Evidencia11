@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2613c846-8719-4a91-9121-8a1bd4bb042c" name="Changes" comment="crea ventana de inicio">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorAplicacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorMostrador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vista/PanelEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vista/PanelMostrador.java" afterDir="false" />
+    <list default="true" id="2613c846-8719-4a91-9121-8a1bd4bb042c" name="Changes" comment="crea panel editor de trabajador">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controlador/ControladorEditorTrabajador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controlador/ControladorTrabajador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lanzador/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lanzador/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/MarcoPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/Marco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/VentanaEditarTrabajador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/VentanaMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/PanelMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vista/VentanaMostrarTrabajadores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controlador/ControladorAplicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorAplicacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controlador/ControladorMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controlador/ControladorMostrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controlador/ControladorMostrador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/PanelEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/PanelEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/PanelMostrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/PanelMostrador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668874146919</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="crea panel editor de trabajador">
+      <created>1668881835731</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668881835731</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +146,7 @@
     <MESSAGE value="agrega esqueleto de la aplicación" />
     <MESSAGE value="agrega evidencias" />
     <MESSAGE value="crea ventana de inicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="crea ventana de inicio" />
+    <MESSAGE value="crea panel editor de trabajador" />
+    <option name="LAST_COMMIT_MESSAGE" value="crea panel editor de trabajador" />
   </component>
 </project>

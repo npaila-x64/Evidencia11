@@ -45,6 +45,10 @@ public class ControladorAplicacion {
         editor.iniciar();
     }
 
+    public void iniciarMostrador() {
+        mostrador.iniciar();
+    }
+
     public void agregarMenu(PanelMenu menu) {
         vista.agregarMenu(menu);
     }

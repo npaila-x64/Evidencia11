@@ -26,6 +26,6 @@ public class ControladorMenu {
     }
 
     public void mostrarTrabajadoresFueSolicitada() {
-
+        controlador.iniciarMostrador();
     }
 }

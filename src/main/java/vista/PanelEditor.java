@@ -27,7 +27,6 @@ public class PanelEditor extends JPanel implements ActionListener {
     public PanelEditor(ControladorEditor controlador) {
         this.controlador = controlador;
         crearComponentes();
-        setVisible(true);
     }
 
     private void crearComponentes() {

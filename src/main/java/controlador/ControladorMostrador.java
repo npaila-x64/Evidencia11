@@ -14,4 +14,11 @@ public class ControladorMostrador {
         this.controlador.agregarMostrador(vista);
     }
 
+    public void iniciar() {
+        controlador.mostrarMostrador();
+    }
+
+    public void mostrarMenu() {
+        controlador.mostrarMenu();
+    }
 }
