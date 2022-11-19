@@ -4,22 +4,19 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import controlador.ControladorTrabajador;
 
-public class VentanaMenu extends JPanel implements ActionListener {
+import controlador.ControladorMenu;
+
+public class PanelMenu extends JPanel implements ActionListener {
 
     private JLabel titulo;
     private JButton salir;
     private JButton agregar;
     private JButton mostrar;
-    private ControladorTrabajador controlador;
+    private ControladorMenu controlador;
 
-    public void setLoginVistaControlador(ControladorTrabajador controlador) {
+    public PanelMenu(ControladorMenu controlador) {
         this.controlador = controlador;
-    }
-
-    public VentanaMenu(ControladorTrabajador controlador) {
-        setLoginVistaControlador(controlador);
         crearComponentes();
         setVisible(true);
     }
@@ -93,7 +90,7 @@ public class VentanaMenu extends JPanel implements ActionListener {
             this.controlador.salidaFueSolicitada();
         }
         if (e.getSource() == agregar) {
-            this.controlador.editarTrabajadorFueSolicitada();
+            this.controlador.agregarTrabajadorFueSolicitada();
         }
         if (e.getSource() == mostrar) {
             this.controlador.mostrarTrabajadoresFueSolicitada();

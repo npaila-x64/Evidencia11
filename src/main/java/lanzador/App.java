@@ -1,10 +1,10 @@
 package lanzador;
 
-import controlador.ControladorTrabajador;
+import controlador.ControladorAplicacion;
 
 public class App {
 
     public static void main(String[] args) {
-        new ControladorTrabajador().iniciar();
+        new ControladorAplicacion().iniciar();
     }
 }
